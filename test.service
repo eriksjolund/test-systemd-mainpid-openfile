@@ -11,7 +11,7 @@ Restart=no
 TimeoutStopSec=70
 
 OpenFile=/etc/mainpid:myfdname:truncate
-ExecStart=/var/tmp/ready2
+ExecStart=/var/tmp/ready
 
 Type=notify
 NotifyAccess=all
